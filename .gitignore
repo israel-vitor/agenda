@@ -1,0 +1,9 @@
+.idea
+
+core/migrations
+
+*/__pycache__/
+
+*.sqlite3
+
+agenda/settings.py
