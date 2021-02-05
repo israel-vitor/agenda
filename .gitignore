@@ -6,4 +6,4 @@ core/migrations
 
 *.sqlite3
 
-agenda/settings.py
+.env
