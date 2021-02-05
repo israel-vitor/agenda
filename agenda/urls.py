@@ -22,6 +22,9 @@ from core import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('events/local/<int:event_id>/', views.get_event_location),
+    path('login/', views.login_user),
+    path('logout/', views.logout_user),
+    path('login/submit', views.submit_login),
     path('agenda/', views.list_events),
     path('', RedirectView.as_view(url="/agenda/"))
 ]
